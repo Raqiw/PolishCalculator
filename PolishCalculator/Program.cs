@@ -59,6 +59,10 @@
                             {
                                 Console.WriteLine("Looks like you forgot to do the operation.");
                             }
+                            else 
+                            {
+                                Console.WriteLine("All operations have been completed. Enter a new expression.");
+                            }
                             break;
 
                         default:
