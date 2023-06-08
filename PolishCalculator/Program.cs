@@ -49,6 +49,19 @@
                             }
                             break;
 
+                        case "%":
+                            op2 = stack.Pop();
+                            if (op2 != 0.0)
+                            {
+
+                                stack.Push(stack.Pop() % op2);
+                            }
+                            else
+                            {
+                                Console.WriteLine("Error. Can't divide by zero!");
+                            }
+                            break;
+
                         case "calc":
 
                             if (stack.Count == 1)
