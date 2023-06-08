@@ -50,7 +50,14 @@
                             break;
 
                         case "calc":
+                            if (stack.Count == 1)
+                            {
                             Console.WriteLine($"Result: {stack.Pop()}");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Looks like you forgot to do the operation.");
+                            }
                             break;
 
                         default:
