@@ -38,7 +38,15 @@
 
                         case "/":
                             op2 = stack.Pop();
-                            stack.Push(stack.Pop() / op2);
+                            if (op2 != 0.0)
+                            {
+
+                                stack.Push(stack.Pop() / op2);
+                            }
+                            else
+                            {
+                                Console.WriteLine("Error. Can't divide by zero!");
+                            }
                             break;
 
                         case "calc":
