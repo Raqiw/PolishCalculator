@@ -1,1 +1,1 @@
-# PolishCalculator
+In this project, the "Polish calculator" is implemented, the input of data into which is carried out according to the reverse Polish notation. Arguments are placed on the Stack and, when the expressions are evaluated, are taken from it one by one. Checking for the form of an arithmetic operation is revlizirovan in the simplest way - with the help of the construction Switch.
